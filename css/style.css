@@ -34,7 +34,67 @@ html,body{
 .box{
     flex: 1;
     overflow-y: auto;
+    background: lightgray;
 }
+/* banner */
+.banner{
+    width: 100%;
+    height: 4rem;
+    background:chartreuse;
+}
+/* nav */
+.nav{
+    width: 100%;
+    height: 2rem;
+    background: #fff;
+    margin-bottom: 1.5625rem;
+}
+.navItem{
+    flex: 1;
+    text-align: center;
+}
+.navicon{
+    height: 1.6rem;
+    line-height: 1.6rem;
+}
+.navicon  .iconfont{
+   display: inline-block;
+   width: 1.2rem;
+   height: 1.2rem;
+   line-height: 1.2rem;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   color: #fff;
+   font-size: .5rem;
+}
+.goods{
+    width: 100%;
+    background: #fff;
+    margin-bottom: 1.5625rem;
+}
+.goodsTitle{
+    width: 100%;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    justify-content: space-between;
+}
+.gs-font{
+    width: 4rem;
+    font-size: .4rem;
+    text-indent: .15625rem;
+}
+.gs-icon{
+    width: .4rem;
+    color: darkblue;
+}
+.gs-back{
+    color: orange;
+    width: 1rem;
+}
+
 .ft{
     width: 100%;
     height: 80px;
@@ -94,6 +154,10 @@ html,body{
     height: .6rem;
     line-height: .6rem;
     font-size: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
 }
 .photo{
     flex: 1;

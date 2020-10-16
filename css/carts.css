@@ -1,0 +1,51 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('./font/iconfont.eot');
+    src: url('./font/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('./font/iconfont.woff2') format('woff2'),
+        url('./font/iconfont.woff') format('woff'),
+        url('./font/iconfont.ttf') format('truetype'),
+        url('./font/iconfont.svg#iconfont') format('svg');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.flx{
+    display: flex;
+}
+.warp{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+/* header */
+.hd{
+    position: relative;
+    height: 1.25rem;
+    width: 100%;
+    background: darkslateblue;
+    align-items: center;
+    line-height: 1.25rem;
+    color: #fff;
+    font-size: .4rem;
+}
+/* box */
+.box{
+    flex: 1;
+    overflow-y: auto;
+    background: lightgray;
+}
+/* footer */
+.ft{
+    width: 100%;
+    height: 1.25rem;
+    background: #fff;
+}
